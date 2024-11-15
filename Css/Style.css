@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header
+{
+    position:absolute;
+    width:31em;
+    height:10em;
+    background-color:cadetblue;
+    left:30%;
+    top:5%;
+    border-radius: 0.3em;
+    box-shadow: 10px 10px 10px 10px #242424;
+}
+.header h1 
+{
+    width:10em;
+    height: 4em;
+    margin-left:18.5%;
+    margin-top:2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3em;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px #242424;
+    background-color:cadetblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:lightgreen;
+}
+body {
+    background-color: cadetblue;
+}
+.app
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    position: absolute;
+    width: 48%;
+    height: 10em;
+    background-color: white;
+    opacity: 0.5;
+    top: 3%;
+    left: 25%;
+    border-radius: 0.2em;
+    border: 5px solid lightgreen;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.info p {
+    margin-top: 2em;
+    font-size: 1.5em;
+}
+
+.Resetbutton {
+    position: absolute;
+    width: 0.1em;
+    height: 1em;
+    top: 33.6%;
+    left: 46.5%;
+}
+.Kronometre
+{
+    position: absolute;
+    left:30em;
+    top:11em;
+    width: 30em;
+    height: 30em;
+}
+.b {
+    position: absolute;
+    width: 11em;
+    height: 5em;
+    background-color: #151538;
+    top: 15.3em;
+    left: 45%;
+}
+
+.second {
+    position: absolute;
+    top: 60%;
+    font-size: 4.5em;
+    left: 51.6%;
+    color: lightgreen;
+    transform: translate(-50%, -50%);
+}
+
+.c {
+    position: absolute;
+    top: 60%;
+    font-size: 4.5em;
+    left: 48.3%;
+    color: lightgreen;
+    transform: translate(-50%, -50%);
+}
+
+.tens {
+    position: absolute;
+    top: 60%;
+    font-size: 4.5em;
+    left: 45%;
+    color: lightgreen;
+    transform: translate(-50%, -50%);
+}
+.Startbutton
+{
+    position: absolute;
+    width: 2.4em;
+    height: 1.4em;
+    border-radius: 0.3em;
+    top: 41.7%;
+    left: 57.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    background-color: white;
+}
+.Startbutton img
+{
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    cursor:pointer;
+  
+}
+.Stopbutton
+{
+    position: absolute;
+    width: 2.4em;
+    height: 1.4em;
+    border-radius: 0.3em;
+    top: 41.6%;
+    left: 36.6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    background-color: white;
+}
+.Stopbutton img 
+{
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    cursor:pointer;
+}
+.Resetbutton
+{
+    position: absolute;
+    width: 4.6em;
+    height: 1.3em;
+    border-radius: 0.3em;
+    top: 34%;
+    left: 46.1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    background-color: white;
+    border:none;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+.Resetbutton img {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    cursor:pointer;
+}
